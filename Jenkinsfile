@@ -5,7 +5,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world!' 
-                echo 'env.PATH'
+                echo env.PATH
             }
         }
     }
